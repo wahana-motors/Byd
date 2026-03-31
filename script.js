@@ -8,7 +8,7 @@ const motors = [
     img: "https://byd.arista-group.co.id/wp-content/uploads/2025/07/Atto-1-Apricity-White-.png",
     category: "matic",
     new: true,
-    link: "#/"
+    link: "byd-atto-1dynamic/"
   },
   {
     name: "BYD Atto 1 (Premium)",
