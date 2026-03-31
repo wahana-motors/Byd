@@ -2,239 +2,118 @@
 // DAFTAR MOTOR
 // ==============================
 const motors = [
-  {
-    name: "BeAT",
-    price: "Rp. 19.075.000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-177,f-auto/uploads/product/thumbnail/produk-thumbnail-brown-deluxe-400x300pxl-1-24072025-010253.png",
+      {
+    name: "BYD Atto 1 (Dynamic)",
+    price: "Rp199.000.000",
+    img: "https://byd.arista-group.co.id/wp-content/uploads/2025/07/Atto-1-Apricity-White-.png",
     category: "matic",
     new: true,
-    link: "beat/"
+    link: "#/"
   },
   {
-    name: "BeAT Street",
-    price: "Rp. 19.851.000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/produk-thumbnail-white-400x300pxl-1-24072025-010431.png",
+    name: "BYD Atto 1 (Premium)",
+    price: "Rp235.000.000",
+    img: "#",
     category: "matic",
     new: true,
-    link: "beat-street/"
+    link: "byd-atto-1premium/"
   },
   {
-    name: "Genio",
-    price: "Rp. 20.375.000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/thumbnail-genio-new-3-29102025-075221.png",
+    name: "BYD Dolphin (Dynamic)",
+    price: "Rp369.000.000",
+    img: "#",
     category: "matic",
     new: true,
-    link: "genio/"
+    link: "#/"
   },
   {
-    name: "Scoopy",
-    price: "Rp. 23.250.000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/new-honda-scoopy-sideview-right-stylish-green-400x300px-upload-2-06112024-012304.png",
-    category: "matic",
-    new: false,
-    link: "scoopy/"
-  },
-    {
-    name: "Vario 125",
-    price: "Rp. 24,260,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/thumbnail-vario-125-04062024-094941.png",
-    category: "matic",
-    new: false,
-    link: "vario125/"
-  },
-    {
-    name: "Vario 160",
-    price: "Rp. 28,275,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/thumbnail-vario160-400x300-tr-10012024-040039.png",
-    category: "matic",
-    new: false,
-    link: "vario160/"
-  },
-    {
-    name: "Stylo 160",
-    price: "Rp. 29,325,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/thumbnail-feature-blue-matte-400x300px-1-15082025-025256.png",
+    name: "BYD Dolphin (Premium)",
+    price: "Rp429.000.000",
+    img: "#",
     category: "matic",
     new: true,
-    link: "stylo160/"
+    link: "#/"
   },
-    {
-    name: "PCX 160",
-    price: "Rp. 33,550,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/product-thumbnail-400x300px-red-metallic-06122024-030208.png",
-    category: "matic",
-    new: false,
-    link: "pcx160/"
-  },
-    {
-    name: "ADV160",
-    price: "Rp. 36,600,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/product-thumbnail-400x300px-1-08092025-030705.png",
+  {
+    name: "BYD M6 (Standard 7-Seater)",
+    price: "Rp383.000.000",
+    img: "#",
     category: "matic",
     new: true,
-    link: "adv160/"
+    link: "#/"
   },
-    {
-    name: "Forza",
-    price: "Rp. 94,046,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/product-thumbnail-forza-400x300rev-1-16072025-031300.png",
+  {
+    name: "BYD M6 (Superior 7-Seater)",
+    price: "Rp423.000.000",
+    img: "#",
     category: "matic",
     new: true,
-    link: "forza/"
+    link: "#/"
   },
-
   {
-    name: "CBR150X",
-    price: "Rp. 35.020.000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/fa-ahm-sport-mid-thumbnail-550x413px-21112024-100503.png",
-    category: "sport",
+    name: "BYD M6 (Superior Captain 6-Seater)",
+    price: "Rp433.000.000",
+    img: "#",
+    category: "matic",
     new: true,
-    link: "cbr150x/"
+    link: "#/"
   },
-    {
-    name: "CB150 VERZA",
-    price: "Rp. 24.210.000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/verza-product-thumbnail-400x300px-2-24042025-082912.png",
-    category: "sport",
+  {
+    name: "BYD Atto 3 (Advanced)",
+    price: "Rp390.000.000",
+    img: "#",
+    category: "matic",
     new: true,
-    link: "cb150-verza/"
+    link: "#/"
   },
-    {
-    name: "SONIC 150R",
-    price: "Rp. 28.790.000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/sonic-150r-550x413px-r1-22112024-041432.png",
-    category: "sport",
-    new: false,
-    link: "sonic-150r/"
-  },
-    {
-    name: "CBR 150R Streetfire",
-    price: "Rp. 34,680,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/cb1504-550x413px-r1-22112024-041458.png",
-    category: "sport",
-    new: false,
-    link: "cbr150r-streetfire/"
-  },
-    {
-    name: "CRF150L",
-    price: "Rp. 27,125,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/revproduct-thumbnail-crf150l-400x300px-28072025-020216.png",
-    category: "sport",
+  {
+    name: "BYD Atto 3 (Superior)",
+    price: "Rp520.000.000",
+    img: "#",
+    category: "matic",
     new: true,
-    link: "crf150l/"
-  },
-    {
-    name: "CBR250RR",
-    price: "Rp. 66,985,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-177,f-auto/uploads/product/thumbnail/thumbnail-cbr-550x413px-r1-2611-26112024-080056.png",
-    category: "Sport",
-    new: false,
-    link: "cbr250rr/"
+    link: "#/"
   },
   {
-    name: "ST125 Dax",
-    price: "Rp. 83,139,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-177,f-auto/uploads/product/thumbnail/st125-dax-550x413px-21112024-101348.png",
-    category: "sport",
-    new: false,
-    link: "st125-dax/"
-  },
-  {
-    name: "Monkey",
-    price: "Rp. 87,794,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-177,f-auto/uploads/product/thumbnail/thumbnail-monkey-400x300-tr-13022025-050041.png",
-    category: "",
+    name: "BYD Sealion 7 (Premium)",
+    price: "Rp629.000.000",
+    img: "#",
+    category: "matic",
     new: true,
-    link: "monkey/"
+    link: "#/"
   },
   {
-    name: "CRF250 RALLY",
-    price: "Rp. 96,539,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-177,f-auto/uploads/product/thumbnail/crf-250-web-banner-product-thumbnail-400x300px-16062025-032317.png",
-    category: "sport",
+    name: "BYD Sealion 7 (Performance AWD)",
+    price: "Rp719.000.000",
+    img: "#",
+    category: "matic",
     new: true,
-    link: "crf250-rally/"
+    link: "#/"
   },
-    {
-    name: "CRF250L",
-    price: "Rp. 86,717,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-177,f-auto/uploads/product/thumbnail/crf250l-web-banner-product-thumbnail-400x300px-16062025-091255.png",
-    category: "sport",
+  {
+    name: "BYD Seal (Premium)",
+    price: "Rp639.000.000",
+    img: "#",
+    category: "matic",
     new: true,
-    link: "crf250l/"
-  },
-    {
-    name: "CBR150R",
-    price: "Rp. 39,020,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/thumbnail-cbr150r-550x413px-tr-new-2-21112024-100742.png",
-    category: "sport",
-    new: false,
-    link: "cbr150r/"
+    link: "#/"
   },
   {
-    name: "Supra X 125 FI",
-    price: "Rp. 21,350,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/thumbnail-new-supra-x-5-04032022-102907.png",
-    category: "cub",
-    new: false,
-    link: "supra-x125fi/"
+    name: "BYD Seal (Performance AWD)",
+    price: "Rp750.000.000",
+    img: "#",
+    category: "matic",
+    new: true,
+    link: "#/"
   },
   {
-    name: "GTR 150",
-    price: "Rp. 26,715,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/supra-gtr-150-4-27052021-092133.png",
-    category: "cub",
-    new: false,
-    link: "gtr150/"
-  },
-  {
-    name: "CT125",
-    price: "Rp. 82,539,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/ct125-400x300-3-14062023-040229.png",
-    category: "cub",
-    new: false,
-    link: "ct125/"
-  },
-  {
-    name: "Supercub C125",
-    price: "Rp. 79,941,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/400x300-pxl-03052024-061642-1-10052024-062406.png",
-    category: "cub",
-    new: false,
-    link: "supercub-c125/"
-  },
-  {
-    name: "Revo",
-    price: "Rp. 17,985,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/thumbnail-new-supra-x-5-04032022-102907.png",
-    category: "cub",
-    new: false,
-    link: "revo/"
-  },
-    {
-    name: "ICON e",
-    price: "Rp. 28,000,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/ahm-light-sideview-blue-4-08102024-032201-09102024-051105.png",
-    category: "ev",
-    new: false,
-    link: "econe/"
-  },
-    {
-    name: "EM1 e: & EM1 e: PLUS",
-    price: "Rp. 40,000,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/em1-silver-samping-400x300-tr-21122023-045018.png",
-    category: "ev",
-    new: false,
-    link: "emplus/"
-  },
-    {
-    name: "CUV e: & CUV e: RoadSync Duo",
-    price: "Rp. 54,450,000",
-    img: "https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,f-auto/uploads/product/thumbnail/a01-p01-2025-cuve-mat-pearl-crater-white-rh-side-std-1-08102024-044120-09102024-053635.png",
-    category: "ev",
-    new: false,
-    link: "cuv-roadsync/"
-  },
+    name: "BYD Denza D9 (Electric)",
+    price: "Rp950.000.000",
+    img: "#",
+    category: "matic",
+    new: true,
+    link: "#/"
+  } 
 ];
 
 function renderMotors(category) {
