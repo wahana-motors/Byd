@@ -13,7 +13,7 @@ const motors = [
   {
     name: "BYD Atto 1 (Premium)",
     price: "Rp235.000.000",
-    img: "#",
+    img: "https://byd.arista-group.co.id/wp-content/uploads/2025/07/Atto-1-Cosmos-Black.png",
     category: "matic",
     new: true,
     link: "byd-atto-1premium/"
