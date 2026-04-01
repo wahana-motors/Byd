@@ -24,7 +24,7 @@ const motors = [
     img: "https://byd.arista-group.co.id/wp-content/uploads/2024/09/Surf-Blue-e1733456828574.png",
     category: "matic",
     new: true,
-    link: "#/"
+    link: "byd-dolphin-dynamic/"
   },
   {
     name: "BYD Dolphin (Premium)",
@@ -32,31 +32,23 @@ const motors = [
     img: "https://byd.arista-group.co.id/wp-content/uploads/2024/09/Urban-Grey-e1733456997414.png",
     category: "matic",
     new: true,
-    link: "#/"
+    link: "byd-dolphin-premium/"
   },
   {
-    name: "BYD M6 (Standard 7-Seater)",
+    name: "BYD M6 (Standard)",
     price: "Rp383.000.000",
     img: "https://byd.arista-group.co.id/wp-content/uploads/2024/12/Khaki.png",
     category: "matic",
     new: true,
-    link: "#/"
+    link: "byd-m6-standard/"
   },
   {
-    name: "BYD M6 (Superior 7-Seater)",
+    name: "BYD M6 (Superior)",
     price: "Rp423.000.000",
     img: "https://byd.arista-group.co.id/wp-content/uploads/2024/12/Blue.png",
     category: "matic",
     new: true,
-    link: "#/"
-  },
-  {
-    name: "BYD M6 (Superior Captain 6-Seater)",
-    price: "Rp433.000.000",
-    img: "https://byd.arista-group.co.id/wp-content/uploads/2024/12/White.png",
-    category: "matic",
-    new: true,
-    link: "#/"
+    link: "byd-m6-superior/"
   },
   {
     name: "BYD Atto 3 (Advanced)",
@@ -64,7 +56,7 @@ const motors = [
     img: "https://byd.arista-group.co.id/wp-content/uploads/2024/09/Sky-White-1.png",
     category: "matic",
     new: true,
-    link: "#/"
+    link: "byd-atto3-advanced/"
   },
   {
     name: "BYD Atto 3 (Superior)",
@@ -72,7 +64,7 @@ const motors = [
     img: "https://byd.arista-group.co.id/wp-content/uploads/2024/01/Atto-3-.png",
     category: "matic",
     new: true,
-    link: "#/"
+    link: "byd-atto3-superior/"
   },
   {
     name: "BYD Sealion 7 (Premium)",
@@ -80,15 +72,15 @@ const motors = [
     img: "aset/byd-sealion7",
     category: "matic",
     new: true,
-    link: "#/"
+    link: "byd-sealion7-premium/"
   },
   {
     name: "BYD Sealion 7 (Performance AWD)",
     price: "Rp719.000.000",
-    img: "https://imgd.aeplcdn.com/1920x1080/n/cw/ec/195195/sealion-7-exterior-right-front-three-quarter-28.png?isig=0&q=80&q=80",
+    img: "aset/byd2-sealion7",
     category: "matic",
     new: true,
-    link: "#/"
+    link: "byd-sealion7-performance/"
   },
   {
     name: "BYD Seal (Premium)",
@@ -96,15 +88,15 @@ const motors = [
     img: "https://www.byd.com/material/byd-site/id/pricelist/seal-fix.png",
     category: "matic",
     new: true,
-    link: "#/"
+    link: "byd-seal-premium/"
   },
   {
-    name: "BYD Seal (Performance AWD)",
+    name: "BYD Seal (Performance)",
     price: "Rp750.000.000",
     img: "https://byd.arista-group.co.id/wp-content/uploads/2024/09/Aurora-White.png",
     category: "matic",
     new: true,
-    link: "#/"
+    link: "byd-seal-performance/"
   },
   {
     name: "BYD Denza D9 (Electric)",
@@ -112,7 +104,7 @@ const motors = [
     img: "https://denza.arista-group.co.id/wp-content/uploads/2024/12/D9_black_car-2-mob-1.png",
     category: "matic",
     new: true,
-    link: "#/"
+    link: "byd-denza-d9/"
   } 
 ];
 
